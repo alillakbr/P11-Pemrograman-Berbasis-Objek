@@ -4,9 +4,11 @@
 Repository ini berisi implementasi refactoring kode sistem registrasi mahasiswa untuk memenuhi prinsip SOLID, khususnya SRP, OCP, dan DIP.
 
 ## Struktur File
-1. `sebelum_refactoring.py`: Kode awal yang melanggar prinsip SOLID (God Class).
-2. `sesudah_refactoring.py`: Kode hasil perbaikan menggunakan Abstraksi dan Dependency Injection.
-3. `order_solid.py`: Latihan praktikum (kasus Order).
+| Nama File | Penjelasan |
+| :--- | :--- |
+| `sebelum_refactoring.py` | Kode awal yang melanggar prinsip SOLID (God Class). |
+| `sesudah_refactoring.py` | Kode hasil perbaikan menggunakan Abstraksi dan Dependency Injection. |
+| `order_solid.py` | Latihan praktikum (kasus Order). |
 
 ## Analisis SOLID
 
