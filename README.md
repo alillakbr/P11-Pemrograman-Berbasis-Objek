@@ -6,13 +6,13 @@ Repository ini berisi implementasi refactoring kode sistem registrasi mahasiswa 
 ## Struktur File
 | Nama File | Penjelasan |
 | :--- | :--- |
-| `sebelum_refactoring.py` | Kode awal yang melanggar prinsip SOLID (God Class). |
-| `sesudah_refactoring.py` | Kode hasil perbaikan menggunakan Abstraksi dan Dependency Injection. |
+| `sebelum_refactoring.py` | Latihan Mandiri (Kode awal yang melanggar prinsip SOLID). |
+| `sesudah_refactoring.py` | Latihan Mandiri (Kode hasil perbaikan menggunakan Abstraksi dan Dependency Injection.) |
 | `order_solid.py` | Latihan praktikum (kasus Order). |
 
 ## Analisis SOLID
 
-### 1. Masalah pada Kode Lama (Code Smell)
+### 1. Masalah pada Kode Lama
 Pada `sebelum_refactoring.py`, terdapat kelas `SistemRegistrasi` yang melakukan terlalu banyak tugas:
 - **Pelanggaran SRP (Single Responsibility Principle):** Satu kelas mengurus validasi SKS, validasi Prasyarat, dan logika persetujuan sekaligus.
 - **Pelanggaran OCP (Open/Closed Principle):** Menggunakan logika kondisional (`if/else`) yang menyatu dengan kode utama. Jika ingin menambah validasi baru, kita harus memodifikasi kelas tersebut.
